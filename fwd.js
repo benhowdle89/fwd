@@ -77,13 +77,12 @@
 		go: function(name) {
 			if (this.hasPushState) {
 				history.pushState(null, '', name == '' ? '/' : name);
-				var path = window.location.pathname;
 				this.run(getPath());
 			} else {
 				window.location.hash = name;
 			}
 		},
-		
+
 		/**
 		 * Takes a URL, parses it, and then invokes the relevant callbacks
 		 * @param  {string} url
