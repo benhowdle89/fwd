@@ -30,9 +30,7 @@
 	};
 
 	var Fwd = window.Fwd = function() {
-
 		this.hasPushState = !!(history.pushState);
-
 		this.routes = {};
 		this.bind();
 	};
