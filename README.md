@@ -6,7 +6,7 @@ A dead simple JavaScript plugin to help manage page-specific JavaScript code in 
 
 When you want certain JavaScript to only be ran on certain pages (or certain URL patterns), ie. some form validation code to be initialised when the user is on your contact page.
 
-If you need anything more heavy-lifting than this, I'd suggest looking at [Sammyjs](http://sammyjs.org/docs/routes) which has much deeper support for richer applications.
+If you need anything more heavy-duty than this, I'd suggest looking at [Sammyjs](http://sammyjs.org/docs/routes) which has much deeper support for richer applications.
 
 ## Installation
 
