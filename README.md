@@ -58,3 +58,7 @@ Fwd also provides a `go` method which takes a new "route", ie. "contact", which 
 ```
 fwd.go('contact');
 ```
+
+## Development
+
+This is WIP, so it will almost certainly contain edge-case/cross-browser bugs. Feel free to contribute you spot any low hanging fruit fixes!
